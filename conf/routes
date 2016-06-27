@@ -1,0 +1,7 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+GET   /forecast/:city 	com.cybage.javademo.scala.controller.WeatherServiceController.forecastByCity(city:String)
+
+GET   /forecast/:city/:days com.cybage.javademo.scala.controller.WeatherServiceController.forecastByCityAndDays(city:String,days:Int)
