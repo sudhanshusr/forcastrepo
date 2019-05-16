@@ -3,30 +3,24 @@ This is your new Play application
 
 This file will be packaged with your application, when using `play dist`.
 
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
+[I'm an inline-style link](https://www.google.com)
 
-*This text will be italic*
-_This will also be italic_
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
 
-**This text will be bold**
-__This will also be bold__
+[I'm a reference-style link][Arbitrary case-insensitive reference text]
 
-_You **can** combine them_
+[I'm a relative reference to a repository file](../blob/master/LICENSE)
 
+[You can use numbers for reference-style link definitions][1]
 
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-  
-  
-  http://github.com - automatic!
-[GitHub](http://github.com)
+Or leave it empty and use the [link text itself].
 
+URLs and URLs in angle brackets will automatically get turned into links. 
+http://www.example.com or <http://www.example.com> and sometimes 
+example.com (but not on Github, for example).
 
-As Kanye West said:
+Some text to show that the reference links can follow later.
 
-> We're living the future so
-> the present is our past.
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+[link text itself]: http://www.reddit.com
